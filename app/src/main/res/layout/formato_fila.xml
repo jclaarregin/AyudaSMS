@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/shape_fondo">
+
+    <TextView
+        android:id="@+id/contacto_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="id"/>
+
+    <TextView
+        android:id="@+id/contacto_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
+    <TextView
+        android:id="@+id/contacto_celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/contacto_id"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

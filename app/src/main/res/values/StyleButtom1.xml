@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="st_main_button">
+        <item name="android:background">@drawable/shape_creditos </item>
+    </style>
+</resources>
